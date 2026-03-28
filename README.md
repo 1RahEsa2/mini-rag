@@ -66,10 +66,27 @@ run these lines
 source ~/.bashrc
 create new conda env here
 
+optional setup your command line for better readability 
+export PS1="\[\033[01;32m\]\u@\h:\w\n\[\033[00m\]\$ "
 
 
 
 
+## Installation 
+
+### Install the required packages
+
+''' bash
+$ pip install -r requirements.txt
+'''
+
+### Setup the environment variable 
+
+''' bash
+$ cp .env.example .env
+'''
+
+set your environment variable like "OPEN_AI_KEY" value
 
 
 
